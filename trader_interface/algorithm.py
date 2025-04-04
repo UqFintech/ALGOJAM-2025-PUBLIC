@@ -49,13 +49,12 @@ class Algorithm():
         for ins in trade_instruments:
             print(f"{ins}: ${self.get_current_price(ins)}")
         
-        # Start trading from Day 2 onwards. Buy if price dropped and sell if price rose compared to the previous day
+        # Start trading from Day 2 onwards. Buy if it goes down, sell if it goes up.
         if self.day >= 2:
             for ins in trade_instruments:
                 # if price has gone down buy
                 if self.data[ins][-2] > self.data[ins][-1]:
                     desiredPositions[ins] = positionLimits[ins]
-                    desiredPositions[ins] = 0
                 else:
                     desiredPositions[ins] = -positionLimits[ins]
         # Display the end of trading day
