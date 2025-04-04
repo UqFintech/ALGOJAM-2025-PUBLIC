@@ -39,18 +39,29 @@ class Algorithm():
 
         # IMPLEMENT CODE HERE TO DECIDE WHAT POSITIONS YOU WANT 
         #######################################################################
+        # Display the current trading day
+        print("Starting Algorithm for Day:", self.day)
+        
         # Buy dawg food, chicken and spices, at their maximum amount
-        trade_ins = ["Dawg Food", "Raw Chicken", "Secret Spices"]
-        if self.day > 2:
-            for ins in trade_ins:
+        trade_instruments = ["UQ Dollar"]
+        
+        # Display the prices of instruments I want to trade
+        for ins in trade_instruments:
+            print(f"{ins}: ${self.get_current_price(ins)}")
+        
+        
+        # If its second day or more, then trade
+        if self.day >= 2:
+            for ins in trade_instruments:
                 # if price has gone down buy
                 if self.data[ins][-2] > self.data[ins][-1]:
                     desiredPositions[ins] = positionLimits[ins]
                     desiredPositions[ins] = 0
                 else:
                     desiredPositions[ins] = -positionLimits[ins]
-
-        print("day", self.day)
+        # Display the end of trading day
+        print("Ending Algorithm for Day:", self.day, "\n")
+        
 
         #######################################################################
         # Return the desired positions
