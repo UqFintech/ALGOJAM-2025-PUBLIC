@@ -7,9 +7,12 @@ Welcome to the public repository for ALGOJAM-2025! This repository contains all 
 **Data Release:**  
 Competition data will be released on **4th of April, 6PM AEST**.
 
-Join us for the event in person at the UQ GHD Auditorium in the Advanced Engineering Building. 
+Join us for the event launch in-person at the UQ GHD Auditorium in the Advanced Engineering Building. The Monday presentation evening will take place in the Prentice Building at 7pm.
 
-Otherwise, watch the livestream on our YouTube channel @ https://www.youtube.com/channel/UClC4e9OPixBLdLwLe0l8C4A
+See: https://uqfintech.org/events
+
+Otherwise, watch the livestreams on our YouTube channel:
+https://www.youtube.com/channel/UClC4e9OPixBLdLwLe0l8C4A
 
 ---
 
@@ -30,8 +33,8 @@ Otherwise, watch the livestream on our YouTube channel @ https://www.youtube.com
 - **/competition_documents**  
   Contains competition public documentation and resources.
 - **/trader_interface**  
-  Contains relevant competitor code. Simulation.py runs your implementation of the algorithm.py file.
-- ***/trader_interface/data***  
+  Contains relevant competitor code: simulation.py runs your implementation of the algorithm.py file.
+- **/trader_interface/data**  
   Contains all data for the first simulated year of trading.
 
 ---
