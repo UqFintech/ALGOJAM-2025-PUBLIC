@@ -57,12 +57,12 @@ https://www.youtube.com/channel/UClC4e9OPixBLdLwLe0l8C4A
 
 5. **Environment Setup:**  
    While setting up a virtual environment is highly encouraged to manage dependencies effectively, it is not strictly necessary.  
-   **Using Python's venv (Recommended):**  
+   **Using Python's venv:**  
    ```bash
    python3 -m venv env
    source env/bin/activate  # On Windows, use: env\Scripts\activate
    ```  
-   **Using Conda (Recommended):**  
+   **Using Conda:**  
    ```bash
    conda create --name trader_env python=3
    conda activate trader_env
