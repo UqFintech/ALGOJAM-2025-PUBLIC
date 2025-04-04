@@ -42,15 +42,14 @@ class Algorithm():
         # Display the current trading day
         print("Starting Algorithm for Day:", self.day)
         
-        # Buy dawg food, chicken and spices, at their maximum amount
+        # I only want to trade the UQ Dollar
         trade_instruments = ["UQ Dollar"]
         
         # Display the prices of instruments I want to trade
         for ins in trade_instruments:
             print(f"{ins}: ${self.get_current_price(ins)}")
         
-        
-        # If its second day or more, then trade
+        # Start trading from Day 2 onwards. Buy if price dropped and sell if price rose compared to the previous day
         if self.day >= 2:
             for ins in trade_instruments:
                 # if price has gone down buy
