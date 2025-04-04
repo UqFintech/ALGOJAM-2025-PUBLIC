@@ -1,31 +1,38 @@
 # ALGOJAM-2025 PUBLIC
 
-![AlgoJam Banner](algojam_banner.png)
+![AlgoJam Banner](competition_documents/algojam_banner.png)
 
 Welcome to the public repository for ALGOJAM-2025! This repository contains all the public documentation and resources related to the competition.
 
 **Data Release:**  
 Competition data will be released on **4th of April, 6PM AEST**.
 
+Join us for the event in person at the UQ GHD Auditorium in the Advanced Engineering Building. 
+
+Otherwise, watch the livestream on our YouTube channel @ https://www.youtube.com/channel/UClC4e9OPixBLdLwLe0l8C4A
+
 ---
 
 ## Competition Documents
 
-- [Algo-Jam General.pdf](Competition%20Documents/Algo-Jam_General.pdf)  
+- [Algo-Jam_General.pdf](competition_documents/Algo-Jam_General.pdf)  
   General guidelines and information about the competition.
-- [Algo-Jam Submission Info.pdf](Competition%20Documents/Algo-Jam_SubmissionInfo.pdf)  
+- [Algo-Jam_Submission Info.pdf](competition_documents/Algo-Jam_SubmissionInfo.pdf)  
   Detailed submission instructions and requirements.
-
+- [Algo-Jam_Specification.pdf](competition_documents/Algo-Jam_Specification_2025.pdf)  
+  Data context and some suggested trading strategies.
 ---
 
 ## Repository Structure
 
-- **ALGOJAM-2025-PUBLIC/**  
-  Contains additional public documentation and resources.
 - **README.md**  
   This file with an overview of the repository.
-- **algojam_banner.png**  
-  Banner image for the competition.
+- **/competition_documents**  
+  Contains competition public documentation and resources.
+- **/trader_interface**  
+  Contains relevant competitor code. Simulation.py runs your implementation of the algorithm.py file.
+- ***/trader_interface/data***  
+  Contains all data for the first simulated year of trading.
 
 ---
 
@@ -36,7 +43,7 @@ Competition data will be released on **4th of April, 6PM AEST**.
 2. **Stay Updated:**  
    Mark your calendar for the data release on **4th of April, 6PM AEST**.
 3. **Explore Additional Resources:**  
-   Check the [ALGOJAM-2025-PUBLIC](ALGOJAM-2025-PUBLIC/) folder for further documentation and details.
+   Check the [Competition Documents](competition_documents/) folder for further documentation and details.
 
 ---
 
