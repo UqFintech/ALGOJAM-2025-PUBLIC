@@ -39,15 +39,57 @@ https://www.youtube.com/channel/UClC4e9OPixBLdLwLe0l8C4A
 
 ---
 
+
 ## Getting Started
 
 1. **Review the Competition Documents:**  
    Start with the general guidelines and submission info to understand the competition requirements.
+
 2. **Stay Updated:**  
    Mark your calendar for the data release on **4th of April, 6PM AEST**.
+
 3. **Explore Additional Resources:**  
    Check the [Competition Documents](competition_documents/) folder for further documentation and details.
 
+4. **Download and Extract Trader Interface:**  
+   - Download the `trader_interface` folder from GitHub as a ZIP file.  
+   - Extract the ZIP file to your preferred directory.
+
+5. **Environment Setup:**  
+   While setting up a virtual environment is highly encouraged to manage dependencies effectively, it is not strictly necessary.  
+   **Using Python's venv (Recommended):**  
+   ```bash
+   python3 -m venv env
+   source env/bin/activate  # On Windows, use: env\Scripts\activate
+   ```  
+   **Using Conda (Recommended):**  
+   ```bash
+   conda create --name trader_env python=3
+   conda activate trader_env
+   ```
+
+6. **Install Required Libraries:**  
+   The simulation requires the following libraries:  
+   - `pandas`
+   - `numpy`
+   - `matplotlib`  
+   Install them using pip:  
+   ```bash
+   pip install pandas numpy matplotlib
+   ```  
+   If you have another approved library, feel free to install it as well.
+
+7. **Modify for Your Submission:**  
+   Customize the files within the `trader_interface` folder as needed to integrate your trading algorithm.
+
+8. **Run the Simulation:**  
+   Once your modifications are complete, run the simulation script to test your algorithm:  
+   ```bash
+   python simulation.py
+   ```
+
+9. **Compatibility:**  
+   Ensure your solution is compatible with Python 3.
 ---
 
 ## Updates
